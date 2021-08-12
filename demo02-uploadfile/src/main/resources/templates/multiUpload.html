@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>多文件上传</title>
+</head>
+<body>
+    <div>
+        <div>
+            <div>
+                <h3>多个文件上传</h3>
+            </div>
+            <div>
+                <form method="post" enctype="multipart/form-data" th:action="@{/uploadMultifile}">
+                    <div>
+                        <label for="attachment1">文件上传</label>
+                        <div>
+                            <input type="file" name="attachment" id="attachment1" placeholder="请选择文件" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="attachment2">文件上传</label>
+                        <div>
+                            <input type="file" name="attachment" id="attachment2" placeholder="请选择文件" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="attachment3">文件上传</label>
+                        <div>
+                            <input type="file" name="attachment" id="attachment3" placeholder="请选择文件" />
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <button type="submit">上&nbsp;传</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
