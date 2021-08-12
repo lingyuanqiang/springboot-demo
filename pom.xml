@@ -11,6 +11,7 @@
     <modules>
         <module>demo01-thymeleaf</module>
         <module>demo02-uploadfile</module>
+        <module>demo03-ssm-xml</module>
     </modules>
 
 

@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: lyq930305
+    url: jdbc:mysql:///bootdemo?useUnicode=true&characterEncoding=utf8&seSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  type-aliases-package: com.lyq.bootdemos.demo03.domain
+  mapper-locations: classpath:com/lyq/bootdemos/demo03/mapper/*.xml
