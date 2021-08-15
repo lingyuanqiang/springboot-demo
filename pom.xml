@@ -12,6 +12,12 @@
         <module>demo01-thymeleaf</module>
         <module>demo02-uploadfile</module>
         <module>demo03-ssm-xml</module>
+        <module>demo04-ssm-ano</module>
+        <module>demo05-httpMessageConverter</module>
+        <module>demo06-json</module>
+        <module>demo07-fileresources</module>
+        <module>demo08-contentNegotiatingViewResolver</module>
+        <module>demo09-initBinderAndWebDataBinder</module>
     </modules>
 
 

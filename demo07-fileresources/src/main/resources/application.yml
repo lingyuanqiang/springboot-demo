@@ -1,0 +1,22 @@
+web:
+  upload-path: C:/Users/Ling/Pictures/壁纸/
+
+server:
+  port: 8081
+  undertow:
+    url-charset: UTF-8
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+spring:s
+  datasource:
+    username: root
+    password: lyq930305
+    url: jdbc:mysql:///bootdemo?useUnicode=true&characterEncoding=utf8&seSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  type-aliases-package: com.lyq.bootdemos.demo04.domain
+

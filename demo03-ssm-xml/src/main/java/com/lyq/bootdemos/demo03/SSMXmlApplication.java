@@ -11,8 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @MapperScan("com.lyq.bootdemos.demo03.mapper")
 @SpringBootApplication
-public class SSMApplication {
+public class SSMXmlApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SSMApplication.class, args);
+        SpringApplication.run(SSMXmlApplication.class, args);
     }
 }
